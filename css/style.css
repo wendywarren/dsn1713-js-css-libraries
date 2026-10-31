@@ -1,0 +1,43 @@
+:root {
+  --market-navy: #14213d;
+  --market-gold: #fca311;
+  --market-cream: #fdf6e3;
+}
+
+body {
+  background-color: var(--market-cream);
+}
+
+.hero {
+  background: linear-gradient(160deg, var(--market-navy) 0%, #2b3f6b 100%);
+  padding: 4rem 0;
+}
+
+.eyebrow {
+  color: var(--market-gold);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+
+.card {
+  border: 0;
+  box-shadow: 0 0.5rem 1.5rem rgba(20, 33, 61, 0.08);
+}
+
+.visit {
+  background-color: #fff;
+}
+
+.visit-list li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(20, 33, 61, 0.1);
+}
+
+footer {
+  background-color: var(--market-navy);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+
+/*** Add any styles your library needs below this line ***/
